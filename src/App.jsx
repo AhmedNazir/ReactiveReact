@@ -1,7 +1,9 @@
-import Gallery from "./components/Gallery";
+import ListRender from "./components/ListRender";
 
-function App() {
-  return <Gallery />;
+export default function () {
+  return (
+    <ul>
+      <ListRender />
+    </ul>
+  );
 }
-
-export default App;
