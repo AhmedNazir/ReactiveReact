@@ -1,9 +1,5 @@
-import ListRender from "./components/ListRender";
+import RecipeList from "./components/RecipeList";
 
 export default function () {
-  return (
-    <ul>
-      <ListRender />
-    </ul>
-  );
+  return <RecipeList />;
 }
